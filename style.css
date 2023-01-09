@@ -342,7 +342,7 @@ h5 {
   transition: 0.3s;
 }
 .social__media:hover {
-  font-size: 16px;
+  font-size: 13px;
 }
 .nav__social__media:active {
   text-shadow: 0px 0px 2px rgb(103, 103, 210);
@@ -380,7 +380,7 @@ h5 {
 }
 /* КАРТЫ СОТРУДНИКОВ КОМАНДЫ И ВЫБОР ПО НАЖАТИЮ */
 .card__person__1 {
-  z-index: -1;
+  z-index: 1;
 }
 .card__person__2 {
   z-index: -2;
@@ -394,6 +394,28 @@ h5 {
 .card__person__5 {
   z-index: -5;
 }
+/* ВЫБОР КАРТЫ СОТРУДНИКА КОМАНДЫ */
+
+#person1:checked + .card__person__1 {
+  z-index: 10;
+}
+#person2:checked + .card__person__2 {
+  z-index: 10;
+}
+#person3:checked + .card__person__3 {
+  z-index: 10;
+}
+#person4:checked + .card__person__4 {
+  z-index: 10;
+}
+#person5:checked + .card__person__5 {
+  z-index: 10;
+}
+
+#person1, #person2, #person3, #person4, #person5 {
+  display: none;
+}
+
 
 
 
