@@ -40,7 +40,9 @@
   background-size: 100% 100%;
 }
 /* БЛОК КАРТА ПЕРСОНАЛА */
+
 /* КАРТА ------- ARTHUR FOSTER NAMBER_1 */
+
 /* ЗАГЛАВНОЕ ФОТО */
 .title__img__person__1 {
   background-image: url(./image/a_person/Arthur_Foster_1.jpg);
@@ -68,9 +70,123 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* КАРТА ------- BRENDA TURNER -- NAMBER_2 */
+
+/* КАРТА ------- Brenda Turner NAMBER_2 */
+
+/* ЗАГЛАВНОЕ ФОТО */
 .title__img__person__1__card__2 {
   background-image: url(./image/a_person/Brenda_Turner_2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+/* ФОТО КОМАНДЫ */
+.team__person__img__1__card__2 {
+  background-image: url(./image/a_person/Arthur_Foster_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__2__card__2 {
+  background-image: url(./image/a_person/Carolyn_Jackson_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__3__card__2 {
+  background-image: url(./image/a_person/Christopher_Phillips_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__4__card__2 {
+  background-image: url(./image/a_person/Peter_Collins_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* КАРТА ------- Carolyn Jackson NAMBER_3 */
+
+/* ЗАГЛАВНОЕ ФОТО */
+.title__img__person__1__card__3 {
+  background-image: url(./image/a_person/Carolyn_Jackson_3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* ФОТО КОМАНДЫ */
+.team__person__img__1__card__3 {
+  background-image: url(./image/a_person/Arthur_Foster_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__2__card__3 {
+  background-image: url(./image/a_person/Brenda_Turner_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__3__card__3 {
+  background-image: url(./image/a_person/Christopher_Phillips_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__4__card__3 {
+  background-image: url(./image/a_person/Peter_Collins_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* КАРТА ------- Christopher Phillips NAMBER_4 */
+
+/* ЗАГЛАВНОЕ ФОТО */
+.title__img__person__1__card__4 {
+  background-image: url(./image/a_person/Christopher_Phillips_4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* ФОТО КОМАНДЫ */
+.team__person__img__1__card__4 {
+  background-image: url(./image/a_person/Arthur_Foster_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__2__card__4 {
+  background-image: url(./image/a_person/Brenda_Turner_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__3__card__4 {
+  background-image: url(./image/a_person/Carolyn_Jackson_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__4__card__4 {
+  background-image: url(./image/a_person/Peter_Collins_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* КАРТА ------- Peter Collins NAMBER_5 */
+
+/* ЗАГЛАВНОЕ ФОТО */
+.title__img__person__1__card__5 {
+  background-image: url(./image/a_person/Peter_Collins_5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* ФОТО КОМАНДЫ */
+.team__person__img__1__card__5 {
+  background-image: url(./image/a_person/Arthur_Foster_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__2__card__5 {
+  background-image: url(./image/a_person/Brenda_Turner_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__3__card__5 {
+  background-image: url(./image/a_person/Carolyn_Jackson_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__4__card__5 {
+  background-image: url(./image/a_person/Christopher_Phillips_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
