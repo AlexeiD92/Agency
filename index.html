@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./background-images.css">
   <link rel="shortcut icon" href="./icons/favicon.png" type="image/png">
   <title>Agency</title>
 </head>
@@ -17,10 +18,10 @@
         <header class="nav">
           <nav class="menu">
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">about us</a></li>
-              <li><a href="#">contact</a></li>
+              <li class="nav__1__active"><a href="#">home</a></li>
+              <li class="nav__1__active"><a href="#">portfolio</a></li>
+              <li class="nav__1__active"><a href="#">about us</a></li>
+              <li class="nav__1__active"><a href="#">contact</a></li>
             </ul>
           </nav>
         </header>
@@ -61,22 +62,22 @@
           <!-- ПРАВЫЙ БЛОК -->
           <div class="block__list">
               <div class="list">
-                <img src="" alt="logo">
+                <div class="list__logo__1 list__logo__size"></div>
                 <h5>Management</h5>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus dicta corporis possimus alias libero deserunt vel blanditiis maxime omnis consequuntur, accusamus dolorum quo voluptatem.</span>
               </div>
               <div class="list">
-                <img src="" alt="logo">
+                <div class="list__logo__2 list__logo__size"></div>
                 <h5>UI/UX Design </h5>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus dicta corporis possimus alias libero deserunt vel blanditiis maxime omnis consequuntur, accusamus dolorum quo voluptatem.</span>
               </div>
               <div class="list">
-                <img src="" alt="logo">
+                <div class="list__logo__3 list__logo__size"></div>
                 <h5>Logo/Branding</h5>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus dicta corporis possimus alias libero deserunt vel blanditiis maxime omnis consequuntur, accusamus dolorum quo voluptatem.</span>
               </div>
               <div class="list">
-                <img src="" alt="logo">
+                <div class="list__logo__4 list__logo__size"></div>
                 <h5>Animation</h5>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus dicta corporis possimus alias libero deserunt vel blanditiis maxime omnis consequuntur, accusamus dolorum quo voluptatem.</span>
               </div>
@@ -84,18 +85,186 @@
         </div>
       </section>
       <!-- ЛИНИЯ КОНЕЦ БЛОКА 1 -->
-      <hr>
+      <hr class="line__1">
+      <!-- БЛОК 2 FEATURE PRODUCTS -->
       <section class="main__section">
         <div class="content__wrap__2">
-
+          <!-- ЗАГОЛОВОК FEATURE PRODUCTS -->
+          <div class="block__2__title">
+            <div class="block__2__title__wrap">
+              <h2 class="title title_h2">feature products</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam sint at quaerat omnis recusandae.</p>
+            </div>
+          </div>
+          <!-- ЛИНИЯ КРАСНАЯ -->
+          <hr class="line__red">
+          <!-- НАВИГАЦИЯ 2 -->
+          <div class="block__2__nav">
+            <nav class="menu">
+              <ul>
+                <li><a class="block__2__nav__color" href="#">all</a></li>
+                <li><a class="block__2__nav__color" href="#">print template</a></li>
+                <li><a class="block__2__nav__color" href="#">web template</a></li>
+                <li><a class="block__2__nav__color" href="#">user interface</a></li>
+                <li><a class="block__2__nav__color" href="#">mosc-up</a></li> 
+              </ul>
+            </nav>
+          </div>
+          <!-- КАРТИНКИ -->
+          <div class="block__2__wrap__images">
+            <div class="block__2__imeg__1 block__2__imeg__size"></div>
+            <div class="block__2__imeg__2 block__2__imeg__size"></div>
+            <div class="block__2__imeg__3 block__2__imeg__size"></div>
+            <div class="block__2__imeg__4 block__2__imeg__size"></div>
+            <div class="block__2__imeg__5 block__2__imeg__size"></div>
+            <div class="block__2__imeg__6 block__2__imeg__size"></div>
+            <div class="block__2__imeg__7 block__2__imeg__size"></div>
+            <div class="block__2__imeg__8 block__2__imeg__size"></div>
+          </div>
         </div>
       </section>
+      <!-- БЛОК 3 MEET OUR TEAM -->
       <section class="main__section">
         <div class="content__wrap__3">
+          <!-- БЛОК 3 ЗАГОЛОВОК -->
+          <div class="block__3__title">
+            <div class="block__3__title__wrap">
+              <h2 class="title title_h2">meet our team</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam sint at quaerat omnis recusandae.</p>
+            </div>
+          </div>
+          <!-- ЛИНИЯ КРАСНАЯ -->
+          <hr class="line__red">
+          <!-- БЛОК КАРТОЧЕК СОТРУДНИКОВ -->
+          <div class="wrapper__card__person">
+            <!-- КАРТА СОТРУДНИКА №1 -->
+            <div class="card__person card__person__1">
+              <!-- ЗАГЛАВНОЕ ФОТО СОТРУДНИКА -->
+              <div class="title__img__person title__img__person__1">
+                <!-- ВСПЛЫВАЮЩИЙ БЛОК ИМЯ СОТРУДНИКА -->
+                <div class="wrap__title__name__person">
+                  <span class="title__name__person">Arthur Foster</span>
+                </div>
+              </div>
+              <!-- БЛОК С ИНФОРМАЦИЕЙ СОТРУДНИКА И ФОТО КАРТЫ КОМАНДЫ -->
+              <div class="wrap__info__team">
+                <!-- ИНФОРМАЦИЯ ВЫБРАННОГО СОТРУДНИКА -->
+                <div class="info__person">
+                  <h3 class="info__person__name">Arthur Foster</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nobis voluptatibus possimus blanditiis nam animi!</p>
+                  <!-- НАВИГАЦИЯ ПО СОЦИАЛЬНЫМ СЕТЯМ  -->
+                    <ul>
+                      <li class="nav__social__media"><a class="social__media" href="">facebook</a></li>
+                      <li class="nav__social__media"><a class="social__media" href="">dribble</a></li>
+                      <li class="nav__social__media"><a class="social__media" href="">behance</a></li>
+                      <li class="nav__social__media"><a class="social__media"href="">twitter</a></li>
+                    </ul>
+                </div>
+                <!-- БЛОК КАРТОЧКИ КОМАНДЫ -->
+                <div class="wrap__team">
+                  <div class="team__person team__person__img__1">
+                    <!-- ВСПЛЫВАЮЩИЕ ИМЯ СОТРУДНИКА КОМАНДЫ -->
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Brenda Turner</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__2">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Carolyn Jackson</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__3">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Christopher Phillips</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__4">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Peter Collins</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+            <div class="card__person card__person__2">
+
+
+
+
+              <div class="title__img__person title__img__person__1__card__2">
+                <!-- ВСПЛЫВАЮЩИЙ БЛОК ИМЯ СОТРУДНИКА -->
+                <div class="wrap__title__name__person">
+                  <span class="title__name__person">Brenda Turner</span>
+                </div>
+              </div>
+              <!-- БЛОК С ИНФОРМАЦИЕЙ СОТРУДНИКА И ФОТО КАРТЫ КОМАНДЫ -->
+              <div class="wrap__info__team">
+                <!-- ИНФОРМАЦИЯ ВЫБРАННОГО СОТРУДНИКА -->
+                <div class="info__person">
+                  <h3 class="info__person__name">Brenda Turner</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nobis voluptatibus possimus blanditiis nam animi!</p>
+                  <!-- НАВИГАЦИЯ ПО СОЦИАЛЬНЫМ СЕТЯМ  -->
+                    <ul>
+                      <li class="nav__social__media"><a class="social__media" href="">facebook</a></li>
+                      <li class="nav__social__media"><a class="social__media" href="">dribble</a></li>
+                      <li class="nav__social__media"><a class="social__media" href="">behance</a></li>
+                      <li class="nav__social__media"><a class="social__media"href="">twitter</a></li>
+                    </ul>
+                </div>
+                <!-- БЛОК КАРТОЧКИ КОМАНДЫ -->
+                <div class="wrap__team">
+                  <div class="team__person team__person__img__1">
+                    <!-- ВСПЛЫВАЮЩИЕ ИМЯ СОТРУДНИКА КОМАНДЫ -->
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Arthur Foster</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__2">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Carolyn Jackson</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__3">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Christopher Phillips</span>
+                    </div>
+                  </div>
+                  <div class="team__person team__person__img__4">
+                    <div class="wrap__team__person__name">
+                      <span class="team__person__name">Peter Collins</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+
+
+
+
+            </div>
+            <div class="card__person card__person__3">
+
+            </div>
+            <div class="card__person card__person__4">
+
+            </div>
+            <div class="card__person card__person__5">
+
+            </div>
+          </div>
+          
 
         </div>
+        
       </section>
+      
     </main>
+    <div class="finish"></div>
     
     
 

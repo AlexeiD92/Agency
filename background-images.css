@@ -1,0 +1,76 @@
+/* БЛОК С КАРТИНКАМИ */
+.block__2__imeg__1 {
+  background-image: url(./image/images_block_2/1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__2 {
+  background-image: url(./image/images_block_2/2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__3 {
+  background-image: url(./image/images_block_2/3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__4 {
+  background-image: url(./image/images_block_2/4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__5 {
+  background-image: url(./image/images_block_2/5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__6 {
+  background-image: url(./image/images_block_2/6.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__7 {
+  background-image: url(./image/images_block_2/7.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.block__2__imeg__8 {
+  background-image: url(./image/images_block_2/8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* БЛОК КАРТА ПЕРСОНАЛА */
+/* КАРТА ------- ARTHUR FOSTER NAMBER_1 */
+/* ЗАГЛАВНОЕ ФОТО */
+.title__img__person__1 {
+  background-image: url(./image/a_person/Arthur_Foster_1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* ФОТО КОМАНДЫ */
+.team__person__img__1 {
+  background-image: url(./image/a_person/Brenda_Turner_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__2 {
+  background-image: url(./image/a_person/Carolyn_Jackson_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__3 {
+  background-image: url(./image/a_person/Christopher_Phillips_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team__person__img__4 {
+  background-image: url(./image/a_person/Peter_Collins_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* КАРТА ------- BRENDA TURNER -- NAMBER_2 */
+.title__img__person__1__card__2 {
+  background-image: url(./image/a_person/Brenda_Turner_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
