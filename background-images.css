@@ -190,3 +190,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* ФОН ДЛЯ ФОРМЫ 1 */
+.wrap__form__1__background__img {
+  background-image: url(./image/form1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
