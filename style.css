@@ -421,7 +421,6 @@ h5 {
 .footer {
   width: 100%;
   margin-top: 470px;
-  background-color: rgb(208, 198, 185);
 }
 .wrap__form__1 {
   width: 100%;
@@ -478,29 +477,77 @@ h5 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  
+  margin-top: 70px;
 }
-
+.p-form__2 {
+  margin-top: 10px;
+}
 .wrap__block__form__2 {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 90px;
 }
 
 .wrap__element__form__2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
+.form__2__line__1 {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+
+}
+.form__2 {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+
+}
+.form__2__size {
+  width: 50%;
+  height: 40px;
+
+}
+.form__2__button__size {
+  width: 100%;
+  height: 40px;
+  margin-top: 0px;
+
+}
+
 .block__contact__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 1;
 }
+.contact__info__title {
+
+}
+.contact__info__address {
+
+}
+.contact__info__mail {
+
+}
+.contact__info__phone {
+
+}
+
+/* ФОН ДЛЯ БЛОКА CONTACT INFO */
 .block__contact__info__background {
   width: 500px;
   height: 300px;
-  background-color: rgb(135, 39, 39);
+  background-color: rgb(26, 25, 25);
   position: absolute;
   right: 0%;
   bottom: 0%;
 }
+
+
 .footer__bottom {
   width: 100%;
   height: 50px;
