@@ -355,7 +355,6 @@ h5 {
 .team__person {
   width: 210px;
   height: 210px;
-  background-color: rgb(114, 75, 151);
   position: relative;
 }
 /* ВСПЛЫВАЮЩИЕ ИМЯ СОТРУДНИКА КОМАНДЫ */
@@ -485,14 +484,15 @@ h5 {
 .wrap__block__form__2 {
   width: 100%;
   display: flex;
-  gap: 90px;
+  gap: 70px;
+  position: relative;
 }
 
 .wrap__element__form__2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 .form__2__line__1 {
   width: 100%;
@@ -501,9 +501,14 @@ h5 {
 
 }
 .form__2 {
-  border: 1px solid rgb(222, 222, 222);
+  border: 2px solid rgb(238, 238, 238);
   border-radius: 5px;
   background-color: rgb(238, 238, 238);
+  resize: none;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  outline: none;
 
 }
 .form__2__size {
@@ -515,43 +520,65 @@ h5 {
   width: 100%;
   height: 40px;
   margin-top: 0px;
-
 }
 
 .block__contact__info{
+  position: absolute;
+  right: -157px;
+  height: 100%;
+  width: 40%;
+  background-color: rgb(26, 25, 25);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 1;
+  gap: 20px;
+  padding-left: 40px;
 }
 .contact__info__title {
-
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0px;
 }
 .contact__info__address {
-
+  color: grey;
 }
 .contact__info__mail {
-
+  text-transform: lowercase;
+  color: grey;
 }
 .contact__info__phone {
-
+  color: grey;
 }
 
-/* ФОН ДЛЯ БЛОКА CONTACT INFO */
-.block__contact__info__background {
-  width: 500px;
-  height: 300px;
-  background-color: rgb(26, 25, 25);
-  position: absolute;
-  right: 0%;
-  bottom: 0%;
-}
-
+/* ПОДВАЛ БЛОК*/
 
 .footer__bottom {
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color: rgb(26, 25, 25);
-  margin-top: 50px;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+.footer__bottom__text {
+  color: grey;
+}
+.footer__bottom__img {
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.footer__bottom__img:hover {
+  transform: rotate(30deg);
+  width: 40px;
+  height: 40px;
+}
+.footer__bottom__img:active {
+  transform: rotate(0deg);
+  width: 20px;
+  height: 20px;
+}
+
 
