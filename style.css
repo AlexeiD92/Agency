@@ -135,14 +135,33 @@ p {
 .video__play__button {
   position: absolute;
   display: inline-block;
-  width: 60px;
-  height: 60px;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px) ;
-  border: 3px solid gray;
-  border-radius: 30px;
-  background-color: rgba(0, 255, 255, 0.318);
-  
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px) ;
+  border: 4px solid white;
+  border-radius: 50%;
+  z-index: 2;
+}
+.video__play__button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 30px rgb(247, 55, 55);
+}
+.video__play__button:active {
+  cursor: pointer;
+  border: 4px solid rgba(247, 55, 55, 0.578);
+}
+.video__play__button:active .play__button {
+  cursor: pointer;
+  border-left: 20px solid rgba(247, 55, 55, 0.578);
+}
+.play__button {
+  border: 20px solid transparent;
+  display: inline-flex;
+  border-left: 20px solid white;
+  margin-left: 42%;
+  margin-top: 20%;
+  z-index: 1;
 }
 video {
   width: 100%;
@@ -678,7 +697,7 @@ h5 {
 
 /* ЗАГРУЗОЧНЫЙ ЭКРАН */
 
-.preloader {
+/* .preloader {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
@@ -709,7 +728,23 @@ h5 {
     width: 0%;
     height: 0%;
   }
+} */
+
+/* СТИЛЬ ПОЛОСЫ ПРОКРУТКИ */
+
+::-webkit-scrollbar {
+  width: 0;
 }
 
+#scroll {
+  overflow-y: scroll;
+}
+#scroll::-webkit-scrollbar {
+  width: 7px;
+  background-color: rgba(222, 86, 86, 0.689);
+}
+#scroll::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0);
+}
 
 
