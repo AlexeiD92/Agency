@@ -285,6 +285,7 @@ h5 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
   margin-bottom: 90px;
 }
@@ -548,7 +549,6 @@ h5 {
 .form__2__size {
   width: 50%;
   height: 40px;
-
 }
 .form__2__button__size {
   width: 100%;
@@ -697,7 +697,7 @@ h5 {
 
 /* ЗАГРУЗОЧНЫЙ ЭКРАН */
 
-.preloader {
+/* .preloader {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
@@ -728,7 +728,7 @@ h5 {
     width: 0%;
     height: 0%;
   }
-}
+} */
 
 /* СТИЛЬ ПОЛОСЫ ПРОКРУТКИ */
 
@@ -738,7 +738,7 @@ h5 {
 
 body {
   overflow-y: scroll;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 body::-webkit-scrollbar {
   width: 5px;

@@ -1,0 +1,130 @@
+@media (max-width: 1199px) and (min-width: 800px) {
+  /* BLOCK TITLE */
+  .fullscreen__body{
+    width: 100%;
+  }
+  .title_h1 {
+    font-size: 45px;
+    font-weight: 900;
+  }
+  p {
+    width: 100%;
+  }
+  .video__wrapper {
+    width: 410px;
+    height: 265px;
+  }
+  /* BLOCK MAIN */
+     /* SECTION 1 */
+  .main__section {
+    width: 100%;
+  }
+  .title_h2 {
+    font-size: 25px;
+  }   
+  .block__list {
+    padding-top: 5px;
+    gap: 10px;
+  }
+  .list {
+    width: 195px;
+  }
+  .list__logo__size {
+    width: 50px;
+    height: 50px;
+  }
+    /* SECTION 2 */
+  .block__2__wrap__images {
+    gap: 10px;
+    margin-bottom: 90px;
+  }
+  .block__2__imeg__size {
+    width: 190px;
+    height: 190px;
+    transition: 0.6s;
+  }
+  .block__2__imeg__size:hover {
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+  }
+   /* SECTION 3 */
+   .content__wrap__3 {
+    align-items: center;
+  }
+  .block__3__title {
+    text-align: center;
+  }
+  .card__person {
+    gap: 10px;
+    justify-content: center;
+  }
+  .title__img__person{
+    width: 240px;
+    height: 333px;
+  }
+  .info__person {
+    width: 550px;
+  }
+  .info__person__name {
+    font-size: 25px;
+  }
+  .wrap__team {
+    width: 550px;
+    gap: 5px;
+  }
+  .team__person {
+    width: 136px;
+    height: 170px;
+  }
+  /* FOOTER */
+  /* FORM 1 */
+  .wrap__content__form__1 {
+    width: 100%;
+  }
+  .form__1__title {
+    font-size: 35px;
+  }
+  .form__1__text {
+    text-align: center;
+  }
+  /* FORM 2 */
+  .wrap__content__form__2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .p-form__2 {
+    text-align: center;
+  }
+  .wrap__block__form__2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    position: static;
+  }
+  .wrap__element__form__2 {
+    gap: 20px;
+    width: 550px;
+  }
+  .form__2__line__1 {
+    gap: 20px;
+  }
+  textarea {
+    width: 100%;
+  }
+  .block__contact__info{
+    position: static;
+    right: 0px;
+    height: 296px;
+    width: 30%;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+  }
+}
