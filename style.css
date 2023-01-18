@@ -43,14 +43,14 @@ html,body {
   display: flex;
   align-items: center;
 }
-ul {
+.nav__1 {
   list-style-type: none;
   margin: 0;
   padding: 0px;
   overflow: hidden;
   height: 100%;
 }
-li {
+.nav__1__active {
   float: left;
   height: 100%;
   display: flex;
@@ -59,12 +59,12 @@ li {
   margin: 0px 10px 0px 10px;
   transition: 0.5s;
 }
-.nav__1__active:hover {
+.nav__1__active__title:hover {
   background-color: rgb(247, 55, 55);
   border-radius: 5%;
   cursor: pointer;
 }
-.nav__1__active:active {
+.nav__1__active__title:active {
   background-color: rgba(247, 55, 55, 0.562);
 }
 a {
@@ -73,6 +73,16 @@ a {
   font-size:15px;
   text-decoration: none;
   text-transform: uppercase;
+}
+/* БЛОК НАВИГАЦИИ ДЛЯ МОБИЛЬНОГО */
+#nav__mobile {
+  display: none;
+}
+.nav__1__mobile {
+  display: none;
+}
+.nav__1__mobile__button {
+  display: none;
 }
 /* БЛОК 1 КОНТЕНТ */
 .block__content {
