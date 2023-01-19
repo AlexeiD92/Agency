@@ -130,6 +130,7 @@
 }
 
 @media (max-width: 799px) {
+  /* БЛОК TITLE */
   .fullscreen__body{
     width: 100%;
   }
@@ -183,6 +184,9 @@
     align-items: center;
     margin-top: 10px;
   }
+  .block__title {
+    width: 100%;
+  }
   .title_h1 {
     text-align: center;
     font-size: 35px;
@@ -206,6 +210,148 @@
     width: 300px;
     height: 192px;
   }
+  /* БЛОК MAIN */
+  /* SECTION 1 */
+  .main__section {
+    width: 100%;
+  }
+  .content__wrap__1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .title_h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .block__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 35px;
+  }
+  .list {
+    width: 170px;
+  }
+  /* SECTION 2 */
+  .block__2__title__wrap {
+    padding-top: 10px;
+  }
+  .line__red {
+    width: 150px;
+    height: 3px;
+  }
+  .block__2__nav {
+    margin-bottom: 30px;
+  }
+  .nav__1__active__mobile {
+    padding: 0px 3px 0px 3px;
+    margin: 0px 3px 0px 3px;
+  }
+  .block__2__nav__color {
+    font-size: 12px
+  }
+  .block__2__wrap__images {
+    gap: 10px;
+    margin-bottom: 90px;
+  }
+  .block__2__imeg__size {
+    width: 170px;
+    height: 170px;
+    transition: 0.6s;
+  }
+  .block__2__imeg__size:hover {
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+  }
+  /* SECTION 3 */
+  .content__wrap__3 {
+    width: 100%;
+    align-items: center;
+  }
+  .card__person {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  /* ЗАГЛАВНОЕ ФОТО СОТРУДНИКА  */
+  .title__img__person{
+    width: 220px;
+    height: 260px;
+  }
+  .title__name__person {
+    display: inline-block;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+  }
+  /* БЛОК С ИНФОРМАЦИЕЙ СОТРУДНИКА И ФОТО КАРТЫ КОМАНДЫ */
+  .wrap__info__team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  /* ИНФОРМАЦИЯ ВЫБРАННОГО СОТРУДНИКА */
+  .info__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+  }
+  .info__person__name {
+    font-size: 20px;
+    color: rgb(52, 51, 51);
+    margin: 10px 0px 20px 0px;
+  }
+  .mobile__size {
+    width: 100%;
+  }
+  /* БЛОК КАРТОЧКИ КОМАНДЫ */
+  .wrap__team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .team__person {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  .team__person__name {
+    font-size: 13px;
+  }
+  /* БЛОК ПОДВАЛ */
+
+  .footer {
+    width: 100%;
+    margin-top: 570px;
+  }
+  .wrap__content__form__1 {
+    width: 100%;
+  }
+  .form__1__title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .form__1__text {
+    margin-top: -60px;
+  }
+  .form__1 {
+    margin-top: 10px;
+  }
+  /* БЛОК ФОРМЫ 2 */
   
   
 }
