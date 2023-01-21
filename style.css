@@ -9,6 +9,9 @@ body:hover {
 * {
   box-sizing: border-box;
 }
+*::selection {
+  background-color: rgb(247, 55, 55);
+}
 .wrapper{
   min-height: 100vh;
   display: flex;
